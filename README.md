@@ -24,7 +24,7 @@ The system was engineered with four discrete operational states, each with uniqu
 * **Mode 2: SPORT** – High-frequency visual feedback (Fast Dual LED Alternate Blink); simulating high-performance responsiveness.  
 * **Mode 3: RACE** – Maximum frequency visual feedback(Extremely Fast Triple LED Sequential Blink); simulating peak performance and low-latency output.
 
-### **Hardware-in-the-Loop Calibration**
+### **Technical Implemetation**
 
 **Interrupt-Driven Input:** Implemented a logic gate to detect mode transitions via the onboard Blue User Button / External Switch, ensuring clean state switching without "bounce" or erratic behavior.
 
